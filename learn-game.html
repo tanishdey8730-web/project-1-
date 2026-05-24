@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <script>
+(function(){var b="",h=location.hostname;if(/\.github\.io$/i.test(h)){var s=location.pathname.split("/").filter(Boolean)[0];if(s&&!/\.html$/i.test(s))b="/"+s+"/";}window.SHARDA_BASE=b;if(b){var e=document.createElement("base");e.href=b;document.head.appendChild(e);}})();
+  </script>
+  <title>Quiz — Sharda Setu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="ui-enhancements.css" />
+  <link rel="stylesheet" href="learn-game.css" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+</head>
+<body class="game-body">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-link">
+        <img src="assets/logo.svg" alt="Sharda Setu" class="logo-img" width="44" height="44"/>
+        <div class="brand-text">
+          <div class="brand-name">Sharda Setu</div>
+          <div class="brand-tagline">Quiz</div>
+        </div>
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="features.html">Features</a>
+        <a href="online-education.html">Online Education</a>
+        <a href="offline.html">Offline Library</a>
+        <a href="learn-game.html" class="nav-edu">Quiz</a>
+      </nav>
+      <div class="auth" id="auth-slot"></div>
+    </div>
+  </header>
+
+  <main class="game-main">
+    <section class="game-hero">
+      <div class="game-hero-bg" aria-hidden="true"></div>
+      <div class="container game-hero-inner">
+        <span class="game-badge">QUIZ ARENA</span>
+        <h1>Learn with <span class="accent">Game</span></h1>
+        <p>Challenge yourself with quizzes for government exams (Maths, Physics, Chemistry, General Studies &amp; Current Affairs) and IT placements (DSA, Python, Aptitude, TCS NQT &amp; more). Earn Gold, Silver or Bronze!</p>
+      </div>
+    </section>
+
+    <div class="container game-container">
+      <section id="step-subjects" class="game-step active">
+        <div class="category-tabs" id="category-tabs" role="tablist" aria-label="Quiz category"></div>
+        <h2 class="step-title" id="step-subjects-title">Choose Your Subject</h2>
+        <p class="step-lead" id="step-subjects-lead">10 questions per quiz — instant score and medal</p>
+        <div class="subject-cards" id="subject-cards"></div>
+        <div class="rank-legend">
+          <h3>Medal Positions</h3>
+          <ul>
+            <li><span class="medal-icon gold">G</span> Gold (90%+) — Perfect Learner</li>
+            <li><span class="medal-icon silver">S</span> Silver (75%+) — Good Learner</li>
+            <li><span class="medal-icon bronze">B</span> Bronze (60%+) — Promising Learner</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="step-quiz" class="game-step" hidden>
+        <div class="quiz-top">
+          <button type="button" class="btn-quit" id="btn-quit">Exit Quiz</button>
+          <div class="quiz-progress-wrap">
+            <div class="quiz-progress-bar"><span id="progress-fill"></span></div>
+            <span id="progress-text">Question 1 of 10</span>
+          </div>
+          <span class="quiz-subject-tag" id="quiz-subject-tag">Maths</span>
+        </div>
+        <article class="quiz-card" id="quiz-card">
+          <h3 id="question-text">Loading...</h3>
+          <div class="options-grid" id="options-grid"></div>
+          <button type="button" class="btn btn-cta btn-next" id="btn-next" disabled>Next Question</button>
+        </article>
+      </section>
+
+      <section id="step-results" class="game-step" hidden>
+        <div class="results-card" id="results-card">
+          <div class="medal-display" id="medal-display"></div>
+          <h2 id="result-title">Quiz Complete!</h2>
+          <p class="result-score" id="result-score">0 / 10</p>
+          <p class="result-percent" id="result-percent">0%</p>
+          <p class="result-learner" id="result-learner">Keep Learning</p>
+          <p class="result-remark" id="result-remark"></p>
+          <div class="results-actions">
+            <button type="button" class="btn btn-cta" id="btn-try-again">Try Again</button>
+            <button type="button" class="btn btn-outline" id="btn-other-subject">Other Subjects</button>
+            <a class="btn btn-outline" href="online-education.html">Video Lessons</a>
+          </div>
+        </div>
+        <div class="review-section" id="review-section">
+          <h3>Answer Review</h3>
+          <div id="review-list"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <hr /><p>© 2024 Sharda Setu. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="auth.js"></script>
+  <script src="backend/data/quiz-fallback.js"></script>
+  <script src="learn-game.js"></script>
+</body>
+</html>

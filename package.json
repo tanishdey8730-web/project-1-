@@ -1,0 +1,16 @@
+{
+  "name": "sharda-setu",
+  "version": "1.0.0",
+  "description": "Sharda Setu — accessible learning with online education API",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js",
+    "build:data": "node backend/build-education.js && node backend/build-it-education.js && node backend/generate-fallback.js && node -e \"const q=require('./backend/data/quizzes.json');require('fs').writeFileSync('backend/data/quiz-fallback.js','window.QUIZ_FALLBACK='+JSON.stringify(q,null,2)+';');\""
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.12",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

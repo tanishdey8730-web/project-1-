@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "title": "Making Quality Education Accessible",
+    "subtitle": "Connect learners and educators through innovative technology — built for low bandwidth and competitive exam success.",
+    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1400&q=80",
+    "imageAlt": "Students studying together in a modern classroom"
+  },
+  "educationBanners": [
+    {
+      "id": "banner-ssc",
+      "title": "SSC Exam Preparation",
+      "subtitle": "CGL · CHSL · MTS · GD — Maths, GS & Reasoning",
+      "cta": "Explore SSC Tracks",
+      "link": "online-education.html#panel-ssc-cgl",
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=900&q=80",
+      "badge": "SSC"
+    },
+    {
+      "id": "banner-defence",
+      "title": "Defence & UPSC Exams",
+      "subtitle": "CDS · NDA · AFCAT · CAPF — Physics, Chemistry & Maths",
+      "cta": "Start Defence Prep",
+      "link": "online-education.html#panel-cds",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80",
+      "badge": "CDS / NDA"
+    },
+    {
+      "id": "banner-railway",
+      "title": "Railway & NTPC Courses",
+      "subtitle": "RRB NTPC — Quant, Science & General Awareness",
+      "cta": "View NTPC Playlists",
+      "link": "online-education.html#panel-rrb-ntpc",
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=900&q=80",
+      "badge": "RRB"
+    }
+  ],
+  "promoStrip": {
+    "headline": "Learn from India's Top Educators — Free on YouTube",
+    "items": [
+      { "icon": "📐", "text": "500+ Maths Lessons" },
+      { "icon": "⚛️", "text": "300+ Physics Videos" },
+      { "icon": "🧪", "text": "250+ Chemistry Classes" },
+      { "icon": "🎯", "text": "10 Competitive Exams" }
+    ]
+  },
+  "partnerLogos": [
+    { "name": "SSC", "tagline": "Staff Selection Commission", "color": "#0b63d6" },
+    { "name": "UPSC", "tagline": "Union Public Service Commission", "color": "#1a1a2e" },
+    { "name": "CDS", "tagline": "Combined Defence Services", "color": "#2aa17b" },
+    { "name": "AFCAT", "tagline": "Air Force Common Admission", "color": "#0055a4" },
+    { "name": "NDA", "tagline": "National Defence Academy", "color": "#8b0000" },
+    { "name": "RRB", "tagline": "Railway Recruitment Board", "color": "#e65100" }
+  ]
+}

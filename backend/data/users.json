@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "c895cf87548167ba9817a664",
+      "name": "Test Student",
+      "email": "test@shardasetu.edu",
+      "passwordHash": "70f89218fdfa2efaf996678561e3a2d0:98856af679a0985dd82ff1520c35bb3081d1bb0da7a66bf43ec63026b90058604feff92381d5b6474327279636dcd609a082099afa014be05589bd4a4485dad4",
+      "role": "student",
+      "avatar": "https://ui-avatars.com/api/?name=Test%20Student&background=2b6ef4&color=fff&size=128",
+      "examGoal": "",
+      "bio": "",
+      "phone": "",
+      "city": "",
+      "createdAt": "2026-05-24T08:17:56.219Z",
+      "updatedAt": "2026-05-24T08:17:56.237Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "069cbfd4f769f4b06c33cdafef9e5b69a91e28d6aa87e451bd5780b0dd4d5711",
+      "userId": "c895cf87548167ba9817a664",
+      "expiresAt": "2026-05-31T08:17:56.239Z"
+    }
+  ]
+}

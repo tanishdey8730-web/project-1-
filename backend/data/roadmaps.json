@@ -1,0 +1,206 @@
+{
+  "section": "roadmaps",
+  "title": "Career Roadmaps",
+  "description": "Structured learning paths for competitive exams (SSC, CDS, NDA, AFCAT, CAPF, RRB) and tech careers — strategy videos, syllabus links, PDFs and YouTube roadmaps.",
+  "subsections": [
+    { "id": "exams", "name": "Competitive Exam Roadmaps", "icon": "🏛️", "description": "Study plans, strategy videos & syllabus links for all government exams" },
+    { "id": "videos", "name": "IT Video Roadmaps", "icon": "▶️", "description": "YouTube roadmaps and full courses for tech careers" },
+    { "id": "links", "name": "IT Roadmap PDFs & Links", "icon": "📄", "description": "Whimsical diagrams, roadmap.sh, PDFs and curated IT links" }
+  ],
+  "videoCategories": [
+    {
+      "id": "ai-ml-datascience",
+      "name": "AI, ML & Data Science",
+      "icon": "🤖",
+      "description": "Python → Statistics → ML → Deep Learning → NLP → MLOps",
+      "items": [
+        { "title": "Complete Python Programming Roadmap (Zero to Expert)", "videoId": "g4Ffdh41vRQ", "channel": "CodeWithHarry", "duration": "13 min" },
+        { "title": "Python Full Course for Data Science (Hindi)", "videoId": "UrsmFxEIp5k", "channel": "CodeWithHarry", "duration": "11 hrs" },
+        { "title": "Learn Python — Full Course for Beginners", "videoId": "rfscVS0vtbw", "channel": "freeCodeCamp", "duration": "4.5 hrs" },
+        { "title": "Data Structures for Beginners (Python)", "videoId": "zg9ih6SVACc", "channel": "freeCodeCamp", "duration": "3 hrs" },
+        { "title": "Algorithms & Data Structures — Full Course", "videoId": "8hly31xKli0", "channel": "freeCodeCamp", "duration": "5 hrs" },
+        { "title": "Dynamic Programming — Introduction", "videoId": "tyB0ztf0DNY", "channel": "take U forward", "duration": "34 min" },
+        { "title": "Krish Naik — Data Science Channel", "videoId": "gfDE2a7MKjA", "channel": "Krish Naik", "duration": "Playlist", "note": "Open channel for DS/ML playlists" },
+        { "title": "TCS NQT Aptitude — Time & Work (Quant for Analytics)", "videoId": "3EI9YAySwHQ", "channel": "GeeksforGeeks", "duration": "2 hrs" }
+      ]
+    },
+    {
+      "id": "fullstack",
+      "name": "Full Stack Development",
+      "icon": "🌐",
+      "description": "HTML, CSS, JavaScript, React, Node.js, MERN & deployment",
+      "items": [
+        { "title": "Become a Fullstack Developer from Scratch", "videoId": "LzMnsfqjzkA", "channel": "freeCodeCamp", "duration": "47 hrs" },
+        { "title": "MERN Stack — Full Tutorial", "videoId": "7CqJlxBYj-M", "channel": "freeCodeCamp", "duration": "1.75 hrs" },
+        { "title": "MERN Stack Course (2024)", "videoId": "mrHNSanmqQ4", "channel": "freeCodeCamp", "duration": "8 hrs" },
+        { "title": "Node.js and Express.js — Full Course", "videoId": "Oe421EPjeBE", "channel": "freeCodeCamp", "duration": "8 hrs" },
+        { "title": "React JS Crash Course", "videoId": "w7ejDZ8SWv8", "channel": "Traversy Media", "duration": "1.5 hrs" },
+        { "title": "JavaScript DOM Manipulation — Full Course", "videoId": "5fb2aPlgoys", "channel": "freeCodeCamp", "duration": "4 hrs" },
+        { "title": "Learn JavaScript by Building 7 Games", "videoId": "ec8vSKJuZTk", "channel": "freeCodeCamp", "duration": "5 hrs" },
+        { "title": "Node.js Tutorial for Beginners", "videoId": "TlB_eWDSMt4", "channel": "Programming with Mosh", "duration": "1 hr" },
+        { "title": "Apna College Web Dev — Lecture 1", "videoId": "VTLCoHnyACE", "channel": "Apna College", "duration": "1.5 hrs", "note": "Start Sigma/Web dev track" }
+      ]
+    },
+    {
+      "id": "java-dsa",
+      "name": "Java & DSA",
+      "icon": "☕",
+      "description": "Core Java, OOP, collections & placement DSA",
+      "items": [
+        { "title": "Striver A2Z DSA — How to Use This Course", "videoId": "0bHoB32fuj0", "channel": "take U forward", "duration": "8 min" },
+        { "title": "Java Full Course for Beginners", "videoId": "eIrMbAQSU34", "channel": "freeCodeCamp", "duration": "12 hrs" },
+        { "title": "Love Babbar DSA L1 — Intro & Flowcharts", "videoId": "WQoB2z67hvY", "channel": "CodeHelp", "duration": "58 min" },
+        { "title": "Apna College DSA L1 — Flowchart & Pseudocode", "videoId": "VTLCoHnyACE", "channel": "Apna College", "duration": "1.5 hrs" },
+        { "title": "Data Structures — Google Engineer", "videoId": "RBSGKlAvoiM", "channel": "freeCodeCamp", "duration": "8 hrs" },
+        { "title": "Algorithms & Data Structures", "videoId": "8hly31xKli0", "channel": "freeCodeCamp", "duration": "5 hrs" },
+        { "title": "Dynamic Programming — Striver", "videoId": "tyB0ztf0DNY", "channel": "take U forward", "duration": "34 min" },
+        { "title": "5 Common Patterns in TCS NQT Coding", "videoId": "Ipp-f6RfxL4", "channel": "Placement Prep", "duration": "1 hr" },
+        { "title": "Striver A2Z DSA Playlist", "playlistId": "PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz", "channel": "take U forward", "duration": "Full playlist" },
+        { "title": "Love Babbar C++ Placement DSA", "playlistId": "PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA", "channel": "CodeHelp", "duration": "Full playlist" }
+      ]
+    },
+    {
+      "id": "cpp-c",
+      "name": "C / C++",
+      "icon": "⚙️",
+      "description": "C fundamentals, C++ DSA & systems programming path",
+      "items": [
+        { "title": "Apna College C++ DSA — Lecture 1", "videoId": "VTLCoHnyACE", "channel": "Apna College", "duration": "1.5 hrs" },
+        { "title": "Love Babbar C++ DSA — Lecture 1", "videoId": "WQoB2z67hvY", "channel": "CodeHelp", "duration": "58 min" },
+        { "title": "Complete C++ DSA Playlist", "playlistId": "PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt", "channel": "Apna College", "duration": "Full playlist" },
+        { "title": "C Programming — Full Course", "videoId": "KJgsSFOSQv0", "channel": "freeCodeCamp", "duration": "4 hrs" },
+        { "title": "C++ Programming — Full Course (C++20)", "videoId": "8jLOx1hD3_o", "channel": "freeCodeCamp", "duration": "31 hrs" },
+        { "title": "Data Structures — Google Engineer (C++/Java)", "videoId": "RBSGKlAvoiM", "channel": "freeCodeCamp", "duration": "8 hrs" },
+        { "title": "Striver A2Z DSA Roadmap Intro", "videoId": "0bHoB32fuj0", "channel": "take U forward", "duration": "8 min" },
+        { "title": "Algorithms & Data Structures", "videoId": "8hly31xKli0", "channel": "freeCodeCamp", "duration": "5 hrs" }
+      ]
+    },
+    {
+      "id": "devops-cloud",
+      "name": "DevOps, AWS & Cloud",
+      "icon": "☁️",
+      "description": "Linux, Docker, CI/CD, AWS & cloud fundamentals",
+      "items": [
+        { "title": "Node.js and Express — Backend for Cloud Apps", "videoId": "Oe421EPjeBE", "channel": "freeCodeCamp", "duration": "8 hrs" },
+        { "title": "Full Stack Developer from Scratch", "videoId": "LzMnsfqjzkA", "channel": "freeCodeCamp", "duration": "47 hrs" },
+        { "title": "MERN Stack — Deploy-ready stack", "videoId": "mrHNSanmqQ4", "channel": "freeCodeCamp", "duration": "8 hrs" },
+        { "title": "Python for Automation & Scripting", "videoId": "rfscVS0vtbw", "channel": "freeCodeCamp", "duration": "4.5 hrs" },
+        { "title": "How to Crack TCS NQT — Complete Guide", "videoId": "FVfiX4Hi08o", "channel": "Career Tips", "duration": "45 min" }
+      ]
+    }
+  ],
+  "linkCategories": [
+    {
+      "id": "python",
+      "name": "Python",
+      "icon": "🐍",
+      "links": [
+        { "title": "Python Roadmap (Interactive — Whimsical)", "url": "https://whimsical.com/python-roadmap-muTa9Bhw8tcxknuUc1L6w", "type": "interactive", "source": "Whimsical" },
+        { "title": "Python Developer Roadmap", "url": "https://roadmap.sh/python", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Backend Developer — Python path", "url": "https://roadmap.sh/backend", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Python Roadmap PDF (upload yours)", "url": "assets/roadmaps/python-roadmap.pdf", "type": "pdf", "source": "Local PDF", "hint": "Place your PDF at assets/roadmaps/python-roadmap.pdf" }
+      ]
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "icon": "☕",
+      "links": [
+        { "title": "Java Developer Roadmap", "url": "https://roadmap.sh/java", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Spring Boot Roadmap", "url": "https://roadmap.sh/spring-boot", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Java Roadmap PDF (upload yours)", "url": "assets/roadmaps/java-roadmap.pdf", "type": "pdf", "source": "Local PDF", "hint": "Place your PDF at assets/roadmaps/java-roadmap.pdf" }
+      ]
+    },
+    {
+      "id": "c-cpp",
+      "name": "C & C++",
+      "icon": "⚙️",
+      "links": [
+        { "title": "C++ Developer Roadmap", "url": "https://roadmap.sh/cpp", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Computer Science Roadmap", "url": "https://roadmap.sh/computer-science", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "C Roadmap PDF (upload yours)", "url": "assets/roadmaps/c-roadmap.pdf", "type": "pdf", "source": "Local PDF", "hint": "Place your PDF at assets/roadmaps/c-roadmap.pdf" },
+        { "title": "C++ Roadmap PDF (upload yours)", "url": "assets/roadmaps/cpp-roadmap.pdf", "type": "pdf", "source": "Local PDF", "hint": "Place your PDF at assets/roadmaps/cpp-roadmap.pdf" }
+      ]
+    },
+    {
+      "id": "dsa",
+      "name": "DSA",
+      "icon": "💻",
+      "links": [
+        { "title": "Striver A2Z DSA Sheet (Official)", "url": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-sheet-learn-dsa-a-to-z", "type": "roadmap", "source": "takeUforward" },
+        { "title": "Love Babbar 450 DSA Sheet", "url": "https://www.geeksforgeeks.org/dsa/dsa-sheet-by-love-babbar/", "type": "roadmap", "source": "GeeksforGeeks" },
+        { "title": "DSA Roadmap PDF (upload yours)", "url": "assets/roadmaps/dsa-roadmap.pdf", "type": "pdf", "source": "Local PDF", "hint": "Place your PDF at assets/roadmaps/dsa-roadmap.pdf" }
+      ]
+    },
+    {
+      "id": "ai-ml",
+      "name": "AI & Machine Learning",
+      "icon": "🤖",
+      "links": [
+        { "title": "AI & Data Scientist Roadmap", "url": "https://roadmap.sh/ai-data-scientist", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "AI Engineer Roadmap", "url": "https://roadmap.sh/ai-engineer", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Machine Learning Roadmap", "url": "https://roadmap.sh/machine-learning", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Krish Naik — Data Science Roadmap 2025 (GitHub)", "url": "https://github.com/krishnaik06/Perfect-Roadmap-To-Learn-Data-Science-In-2025", "type": "github", "source": "Krish Naik" },
+        { "title": "AI/ML Roadmap PDF (upload yours)", "url": "assets/roadmaps/ai-ml-roadmap.pdf", "type": "pdf", "source": "Local PDF", "hint": "Place your PDF at assets/roadmaps/ai-ml-roadmap.pdf" }
+      ]
+    },
+    {
+      "id": "data-analytics",
+      "name": "Data Analytics",
+      "icon": "📊",
+      "links": [
+        { "title": "Data Analyst Roadmap", "url": "https://roadmap.sh/data-analyst", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Data Analyst — BI & SQL path", "url": "https://roadmap.sh/data-analyst", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "SQL Roadmap", "url": "https://roadmap.sh/sql", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Data Analytics PDF (upload yours)", "url": "assets/roadmaps/data-analytics-roadmap.pdf", "type": "pdf", "source": "Local PDF", "hint": "Place your PDF at assets/roadmaps/data-analytics-roadmap.pdf" }
+      ]
+    },
+    {
+      "id": "data-science",
+      "name": "Data Science",
+      "icon": "🔬",
+      "links": [
+        { "title": "Data Science Roadmap (roadmap.sh)", "url": "https://roadmap.sh/data-science", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "AI & Data Scientist Roadmap", "url": "https://roadmap.sh/ai-data-scientist", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Krish Naik Academy — AI Learning Paths", "url": "https://www.krishnaik.in/ai-roadmaps", "type": "interactive", "source": "Krish Naik" },
+        { "title": "Data Science PDF (upload yours)", "url": "assets/roadmaps/data-science-roadmap.pdf", "type": "pdf", "source": "Local PDF", "hint": "Place your PDF at assets/roadmaps/data-science-roadmap.pdf" }
+      ]
+    },
+    {
+      "id": "fullstack",
+      "name": "Full Stack Development",
+      "icon": "🌐",
+      "links": [
+        { "title": "Full Stack Developer Roadmap", "url": "https://roadmap.sh/full-stack", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Frontend Developer Roadmap", "url": "https://roadmap.sh/frontend", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Backend Developer Roadmap", "url": "https://roadmap.sh/backend", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "React Roadmap", "url": "https://roadmap.sh/react", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Node.js Roadmap", "url": "https://roadmap.sh/nodejs", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Full Stack PDF (upload yours)", "url": "assets/roadmaps/fullstack-roadmap.pdf", "type": "pdf", "source": "Local PDF", "hint": "Place your PDF at assets/roadmaps/fullstack-roadmap.pdf" }
+      ]
+    },
+    {
+      "id": "devops",
+      "name": "DevOps",
+      "icon": "🔧",
+      "links": [
+        { "title": "DevOps Roadmap", "url": "https://roadmap.sh/devops", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Docker Roadmap", "url": "https://roadmap.sh/docker", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Kubernetes Roadmap", "url": "https://roadmap.sh/kubernetes", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Linux Roadmap", "url": "https://roadmap.sh/linux", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "DevOps PDF (upload yours)", "url": "assets/roadmaps/devops-roadmap.pdf", "type": "pdf", "source": "Local PDF", "hint": "Place your PDF at assets/roadmaps/devops-roadmap.pdf" }
+      ]
+    },
+    {
+      "id": "aws-cloud",
+      "name": "AWS & Cloud",
+      "icon": "☁️",
+      "links": [
+        { "title": "AWS Roadmap", "url": "https://roadmap.sh/aws", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "Cloud Engineer Roadmap", "url": "https://roadmap.sh/cloud", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "System Design Roadmap", "url": "https://roadmap.sh/system-design", "type": "roadmap", "source": "roadmap.sh" },
+        { "title": "AWS/Cloud PDF (upload yours)", "url": "assets/roadmaps/aws-cloud-roadmap.pdf", "type": "pdf", "source": "Local PDF", "hint": "Place your PDF at assets/roadmaps/aws-cloud-roadmap.pdf" }
+      ]
+    }
+  ]
+}
