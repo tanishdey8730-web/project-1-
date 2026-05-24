@@ -1,0 +1,138 @@
+.offline-page {
+  padding: 40px 20px 64px;
+  max-width: 900px;
+}
+.offline-page-head {
+  margin-bottom: 28px;
+}
+.offline-page-head h1 {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0 0 10px;
+}
+.offline-page-head .accent {
+  color: var(--blue);
+}
+.offline-page-head .lead {
+  color: var(--muted);
+  max-width: 640px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+.offline-gate-card {
+  background: #fff;
+  border: 1px solid rgba(11, 99, 214, 0.15);
+  border-radius: 16px;
+  padding: 32px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.offline-gate-card h2 {
+  margin: 0 0 8px;
+}
+.offline-gate-card .btn {
+  margin: 8px 6px 0;
+}
+.offline-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.offline-item {
+  background: #fff;
+  border: 1px solid rgba(13, 18, 29, 0.08);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 8px 24px rgba(13, 18, 29, 0.06);
+}
+.offline-item-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.offline-item-head h3 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+}
+.offline-status {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.offline-status-downloading {
+  background: #fff8e6;
+  color: #b45309;
+}
+.offline-status-ready {
+  background: #ecfdf5;
+  color: #047857;
+}
+.offline-status-failed {
+  background: #fef2f2;
+  color: #b91c1c;
+}
+.offline-meta {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0 0 12px;
+}
+.offline-err {
+  color: #b91c1c;
+}
+.offline-player-wrap {
+  margin-bottom: 12px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #0f172a;
+}
+.offline-player {
+  width: 100%;
+  max-height: 400px;
+  display: block;
+}
+.offline-item-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.offline-empty {
+  text-align: center;
+  color: var(--muted);
+  padding: 40px 20px;
+}
+.btn-sm {
+  padding: 6px 14px;
+  font-size: 13px;
+}
+.btn-offline-dl {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 1px solid rgba(11, 99, 214, 0.25);
+  background: rgba(11, 99, 214, 0.08);
+  color: var(--blue);
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-offline-dl:hover {
+  background: rgba(11, 99, 214, 0.14);
+}
+.btn-offline-login {
+  color: var(--muted);
+  border-color: rgba(13, 18, 29, 0.12);
+  background: transparent;
+}
+.nav-active {
+  color: var(--blue) !important;
+  font-weight: 700;
+}
